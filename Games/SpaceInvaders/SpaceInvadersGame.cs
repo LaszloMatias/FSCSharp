@@ -7,7 +7,7 @@ namespace SpaceInvaders;
 public class SpaceInvadersGame : Game<SpaceInvadersGame>
 {
     #region Constructors
-    public SpaceInvadersGame() : base("Space Invaders3", /*1800, 1200,*/ Color.Black)
+    public SpaceInvadersGame() : base("Space Invaders3", 1800, 1200, Color.Black)
     {
         Current.PlaySound("Resources/launch-sequence.mp3");
         Current.ShowSplashScreen("Resources/splash.png", 3000);
